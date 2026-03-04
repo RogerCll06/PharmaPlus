@@ -17,5 +17,5 @@ public class UserDTO {
     private String lastName;
     private Boolean enabled;
     private String provider;
-   // private Set<> roles;
+    private Set<RoleDTO> roles;
 }

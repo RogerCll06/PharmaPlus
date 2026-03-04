@@ -1,0 +1,10 @@
+package pharmacy.dtos.auth;
+
+import java.time.Instant;
+
+public record AuthResponseDTO(
+        boolean success,
+        String message,
+        Instant timestamp
+) {
+}
